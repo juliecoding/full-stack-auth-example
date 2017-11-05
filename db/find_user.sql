@@ -1,3 +1,3 @@
-SELECT * 
-FROM users
-WHERE users.auth_id = $1;
+SELECT *
+FROM fullstack_users
+WHERE auth_id = $1;

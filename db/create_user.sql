@@ -1,4 +1,4 @@
-INSERT INTO users
+INSERT INTO fullstack_users
 (user_name, email, img, auth_id)
 VALUES
 ( $1, $2, $3, $4 )
